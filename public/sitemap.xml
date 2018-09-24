@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://micro-co.stackstaging.com/thankyou/</loc>
+    <lastmod>2018-09-19T15:30:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://micro-co.stackstaging.com/corporateconsulting/</loc>
+    <lastmod>2018-09-19T13:51:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://micro-co.stackstaging.com/startupsupport/</loc>
+    <lastmod>2018-09-19T08:36:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://micro-co.stackstaging.com/</loc>
+    <lastmod>2018-09-17T15:58:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://micro-co.stackstaging.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://micro-co.stackstaging.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
