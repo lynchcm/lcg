@@ -197,10 +197,13 @@ label {
     padding-top: 5px;
     display: inline-block;
     width: 90px;
-    position: absolute;
-    left: 15px;
     font-family: $HeadingsFont;
     letter-spacing: 2px;
+    
+    @media only screen and (min-width: $medium) {
+        position: absolute;
+        left: 15px;
+    }
 }
 
 @media only screen and (min-width: $medium) {
