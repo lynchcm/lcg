@@ -5,7 +5,7 @@ p {
   background-color: #000000;
   text-align: center;
   margin-bottom: 0;
-  padding: 50px 0;
+  padding: 70px 0 50px 0;
   margin: 0; }
   #title-block p {
     color: white;
@@ -21,10 +21,21 @@ h1 {
   font-family: 'Raleway', sans-serif;
   padding-bottom: 40px;
   letter-spacing: 6px;
+  word-spacing: 10px;
+  line-height: 25px;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 200;
   margin: 0;
-  padding: 0 50px 20px 50px; }
+  padding: 50px 50px 20px 50px; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-weight: 100; } }
+
+.h1-dots {
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .h1-dots {
+      display: inline; } }
 
 #intro {
   background-image: url("/images/tree-background.jpg");
