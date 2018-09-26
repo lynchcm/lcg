@@ -8,7 +8,7 @@
         
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400|Noto+Serif+JP:200|Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,200,400|Noto+Serif+JP:200|Playfair+Display" rel="stylesheet">
         
         <link rel="stylesheet" type="text/css" href="/css/style.css">
         
@@ -18,7 +18,7 @@
     <body>
         
         <div class="container-fluid" id="title-block">
-            <a href="/"><img src="/images/LifeConsultingLogo.png"></a>
+            <a href="/"><img width="216" src="/images/LifeConsultingLogo.png"></a>
             
 
 <h1><a href="/">HOME</a> &gt; STARTUP SUPPORT</h1>
@@ -70,59 +70,61 @@
 </div>
 
 <div class="container-fluid" id="contact">
-    <div class="row">
-        <div class="col-md-4" id="contact-text">
-            <h2>CONTACT</h2>
-            <p>Tell us more about your business and your goals, and we’ll be in touch to let you know how we can help you get there.</p>
-        </div>
-        <div class="col-md-8" id="form-column">
-            <form method="post" action="https://formspree.io/lynch.cm@gmail.com">
-                
-                <div class="form-group row">
-                    <div class="col-4">
-                        <div class="form-label-position">
-                            <label for="name">NAME</label>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="contact-text">
+                <h2>CONTACT</h2>
+                <p>Tell us more about your business and your goals, and we’ll be in touch to let you know how we can help you get there.</p>
+            </div>
+            <div class="col-md-8" id="form-column">
+                <form method="post" action="https://formspree.io/lynch.cm@gmail.com">
+
+                    <div class="form-group row">
+                        <div class="col-md-4">
+                            
+                                <label for="name">NAME</label>
+                            
+                        </div>
+                        <input type="text" class="form-control col-md-8" id="name" name="Name">
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-4">
+                            <div class="form-label-position">
+                                <label for="company">COMPANY</label>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control col-md-8" id="company" name="Company">
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-4">
+                            <div class="form-label-position">
+                                <label for="email">EMAIL</label>
+                            </div>
+                        </div>
+                        <input type="email" class="form-control col-md-8" id="email" name="Email">
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-4">
+                            <div class="form-label-position">
+                                <label for="message">MESSAGE</label>
+                            </div>
+                        </div>
+                        <textarea rows="4" id="message" class="form-control col-md-8" name="Message"></textarea>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-8" id="send-button">
+                            <input type="submit" value="Send">
                         </div>
                     </div>
-                    <input type="text" class="form-control col-8" id="name" name="Name">
-                </div>
-                
-                <div class="form-group row">
-                    <div class="col-4">
-                        <div class="form-label-position">
-                            <label for="company">COMPANY</label>
-                        </div>
-                    </div>
-                    <input type="text" class="form-control col-8" id="company" name="Company">
-                </div>
-                
-                <div class="form-group row">
-                    <div class="col-4">
-                        <div class="form-label-position">
-                            <label for="email">EMAIL</label>
-                        </div>
-                    </div>
-                    <input type="email" class="form-control col-8" id="email" name="Email">
-                </div>
-                
-                <div class="form-group row">
-                    <div class="col-4">
-                        <div class="form-label-position">
-                            <label for="message">MESSAGE</label>
-                        </div>
-                    </div>
-                    <textarea rows="4" id="message" class="form-control col-8" name="Message"></textarea>
-                </div>
-                
-                <div class="form-group row">
-                    <div class="col-4">
-                    </div>
-                    <div class="col-8" id="send-button">
-                        <input type="submit" value="Send">
-                    </div>
-                </div>
-                <input type="hidden" name="_next" value="/thankyou"/>
-            </form>
+                    <input type="hidden" name="_next" value="/thankyou"/>
+                </form>
+            </div>
         </div>
     </div>
 </div>
